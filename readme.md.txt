@@ -1,24 +1,24 @@
 # Amazon Fine Food Reviews – SQLite Project
 
-## 📌 Overview
+##  Overview
 This project analyzes Amazon fine food reviews using SQLite
 to understand customer ratings, review sentiment, and product popularity.
 
-## 🛠 Tools
+##  Tools
 - SQLite
 - GitHub
 
-## 📂 Dataset
+##  Dataset
 - Amazon Fine Food Reviews (Cleaned)
 
-## 🔍 Analysis Performed
+##  Analysis Performed
 - Total number of reviews
 - Average rating
 - Rating distribution
 - Top reviewed products
 - Sentiment classification using ratings
 
-## 📊 Example Query
+##  Example Query
 ```sql
 SELECT score, COUNT(*)
 FROM reviews
